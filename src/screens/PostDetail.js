@@ -139,7 +139,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 
-  // Skeleton
   skeletonTitle: {
     height: 24,
     width: '90%',

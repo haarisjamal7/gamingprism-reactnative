@@ -8,7 +8,6 @@ const HomeScreen = ({ navigation }) => {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* Header */}
       <View style={styles.header}>
         <Text variant="headlineMedium" style={styles.title}>
           Welcome to
@@ -19,10 +18,7 @@ const HomeScreen = ({ navigation }) => {
           Explore posts and products powered by live APIs.
         </Text>
       </View>
-
-      {/* Cards */}
       <View style={styles.cardsWrapper}>
-        {/* POSTS CARD */}
         <TouchableOpacity
           activeOpacity={0.85}
           onPress={() => navigation.navigate('Posts')}
@@ -38,8 +34,6 @@ const HomeScreen = ({ navigation }) => {
             </Card.Content>
           </Card>
         </TouchableOpacity>
-
-        {/* PRODUCTS CARD */}
         <TouchableOpacity
           activeOpacity={0.85}
           onPress={() => navigation.navigate('Products')}

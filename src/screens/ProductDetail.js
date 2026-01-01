@@ -70,7 +70,7 @@ const ProductDetailScreen = ({ route }) => {
             <Text style={styles.desc}>{product.description}</Text>
 
             <View style={styles.meta}>
-              <Text>⭐ {product.rating}</Text>
+              <Text> {product.rating}</Text>
               <Text>Stock: {product.stock}</Text>
             </View>
 
@@ -118,7 +118,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
 
-  // Skeleton
   skeletonImage: {
     height: 220,
     borderRadius: 16,

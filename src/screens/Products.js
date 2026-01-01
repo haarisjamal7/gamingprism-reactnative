@@ -138,7 +138,7 @@ const Products = ({ navigation }) => {
             <RefreshControl
               refreshing={refreshing}
               onRefresh={onRefresh}
-              tintColor={theme.colors.primary}
+              tintColor="#000000"
             />
           }
           onEndReached={onEndReached}
